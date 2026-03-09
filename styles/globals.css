@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import './variable.css';
+@import './theme.css'; */
+
+body {
+  @apply bg-black text-white;
+}
+
+pre {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+}
+
+code {
+  font-family: monospace;
+}
